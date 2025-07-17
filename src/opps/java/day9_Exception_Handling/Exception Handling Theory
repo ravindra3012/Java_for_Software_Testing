@@ -1,0 +1,85 @@
+
+Exception Handling
+----------------------------------
+Exception is an event which will cause program termination.
+
+
+Errors
+----------------------------------
+1) syntax
+2) logical
+
+
+Types of Exceptions
+----------------------------------
+1) Checked exceptions
+ The exception which are identified by java compiler
+    eg.. InterruptedException
+         FileNotFound
+         IOException etc...
+
+2) Un-checked Exceptions
+ The exception which are not identified by java compiler
+    eg.. ArithmeticException
+         NullPointerException
+         ArrayIndexOutOfBoundException etc...
+
+1) Checked exceptions
+---------------------------------
+checked exception can be handled in 2 ways
+1) using try...catch block
+2) using throws
+
+
+2) Un-checked Exceptions
+---------------------------------
+Syntax
+---------------------------------
+
+try
+{
+statements
+}
+catch(Exception name)
+{
+statements
+}
+finally                 // optional block
+{
+}
+
+
+
+
+about finally block
+-------------------------------------
+case 1: Exception occurred, catch block handled ----> finally block will execute
+case 1: Exception occurred, catch block Not handled ----> finally block will execute
+case 1: Exception does not occurred, catch block ignored ----> finally block will execute
+
+Why we need finally block
+
+
+
+                Checked exception
+1) Checked exception identify by java compiler
+2) Checked exception handled using try..catch block as well as throws keyword
+3) throws keyword is method level
+
+                      vs
+
+                un-checked exception
+1) un-checked exception Not identify by java compiler
+2) un-checked exception handled only using try..catch block
+3) try..catch block is Statement level
+
+
+
+
+
+
+
+
+
+
+

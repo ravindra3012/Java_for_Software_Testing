@@ -1,0 +1,8 @@
+
+Encapsulation
+--------------------------------
+wrapping up of data & method in to single unit(class)
+
+1) All variable should be private
+2) For every variable there should be 2 methods(get & set)
+3) Variable cna be operated only through methods

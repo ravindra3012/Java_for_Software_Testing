@@ -1,0 +1,70 @@
+
+
+Methods - block or group of statements which will perform certain task.
+          we have to call the method though object
+
+
+FOUR ways to create the method
+--------------------------------------
+1) No parameter , No Return value
+2) No parameter , Return value
+3) Takes parameter , No Return value
+4) Takes parameter , Return value
+
+How many ways we can store data into variable
+1) by using object reference variable
+2) method
+3) constructor
+
+
+
+*Constructor-
+----------------------------------------------
+- Constructor name should be same as CLASS
+- Their is no return value not even void
+- It Takes parameter , No Return value
+
+type of Constructor
+1) Default Constructor
+2) Parameterize Constructor
+
+
+
+
+Difference between Method and Constructor
+
+Method
+---------------------------
+1) Method name can be anything
+2) Method may or may not return a value
+3) If method is not returning any value then specify void
+4) Method can take parameters/arguments
+5) We have to invoke/call the method explicitly through object
+6) Used for specific login
+
+Constructor
+---------------------------
+1) Constructor name should be same as class name
+2) Constructor will never return a value( not even void)
+3) We don't specify the void
+4) Constructor can take parameters/arguments
+5) Constructor automatically invoked/called at the time of object creation
+6) Used for initialise the value of the variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

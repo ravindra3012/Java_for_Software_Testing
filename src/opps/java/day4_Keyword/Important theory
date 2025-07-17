@@ -1,0 +1,32 @@
+**Q**.Give static variable access in another class and print length of variable
+Ans-->
+class Test
+{
+static String s = "welcome";
+}
+
+Test.s.length();
+
+---------------------------------------
+
+**Q**. Meaning of 'System.out.println()' ?
+ans-->
+
+class System
+{
+static PrintStream out;
+}
+
+System.out.println();
+
+conclusion-->
+'System' is a pre-define class in java
+'PrintStream' is also another class in java
+'out' is static variable
+'println()' is method derived from 'PrintStream' class
+
+'System.out.println();'  is SHORT form of above 'System' class
+
+
+
+

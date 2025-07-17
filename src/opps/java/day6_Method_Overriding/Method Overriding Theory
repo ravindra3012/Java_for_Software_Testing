@@ -1,0 +1,51 @@
+method Overriding
+----------------------------------------------
+Overriding occurs when a child class implements a method that is already defined in the parent class .
+When a child class provides its own version of method that is already defined in its parent class , we call it method overriding
+
+
+
+** Method Overriding vs Method Overloading
+
+Method Overriding
+-------------------------------------------
+1) Possible only in multiple classes(Inheritance).
+2) We should not change the signature of method but body we should change.
+3) Method names are same.
+4) Belongs to Inheritance.
+
+Method Overloading
+-------------------------------------------
+1) Possible in single and multiple classes(Inheritance)
+2) We should change the signature of the method
+3) Method names are same
+4) Belongs to Polymorphism
+
+
+
+final keyword
+---------------------------------------------
+applied for variables, methods, class
+
+1) Variables - We can not change the value of variable(constant)
+2) Method - We cannot override those methods in child classes with final keyword
+3) class  - We cannot extend the class.
+
+
+super keyword
+----------------------------------------------
+1) super keyword will be used to invoke the immediate parent class variable
+2) super keyword will be used to invoke the immediate parent class method
+
+
+
+
+
+
+
+
+
+
+
+
+

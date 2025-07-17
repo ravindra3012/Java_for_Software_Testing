@@ -1,0 +1,19 @@
+
+Inheritance
+--------------------------------------------
+Acquiring all the properties(Variables) and behaviour(Methods) from one class to another class is called Inheritance
+
+Objective
+--------------------------------------------
+1) re-usability
+2) Avoid duplication
+
+Types of Inheritance
+--------------------------------------------
+1) Single Inheritance
+2) Multi level Inheritance
+3) Hierarchy Inheritance
+4) Multiple Inheritance
+
+
+*** We not create Multiple Inheritance directly but we create Multiple Inheritance with help of INTERFACE

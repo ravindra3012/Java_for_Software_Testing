@@ -1,0 +1,69 @@
+
+Wrapper Classes
+--------------------------------
+            Wrapper Class
+               |
+int ---     Integer
+float ---   Float
+double ---  Double
+char ---    Character
+boolean --- Boolean
+
+Scenario 1   ( String type to primitive type)
+String ------> int, double, boolean
+
+Scenario 2   ( Primitive type to String type)
+int, double, boolean, char -----> String
+
+
+
+Scenario 1   ( String type to primitive type)
+
+1) String ---> int
+Integer.parseInt(String value)
+
+2) String ---> double
+Double.parseDouble(String value)
+
+3) String ---> bool
+Boolean.parseBoolean(String value)
+
+4) String ---> char
+Not Possible
+
+
+
+Scenario 2   ( Primitive type to String type)
+
+any data type  ---> String
+
+String.valueOf();   ---> this method converts all primitive data types into String format
+
+
+
+
+Access Modifiers
+------------------------------------------
+define scope of variables and methods
+
+1) public - directly access all variables and methods everywhere
+2) protected - accessible outside of package through inheritance
+3) default - access only within package
+4) private - access only within the class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

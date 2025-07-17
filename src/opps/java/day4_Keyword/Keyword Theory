@@ -1,0 +1,53 @@
+
+
+2 types of variable in java
+------------------------------
+1) class variable/ instance variable
+2) local variable
+** In java we don't have global variable concept
+
+
+** this keyword
+------------------------------
+this keyword represents class/ object
+
+** static keyword
+------------------------------
+static keyword can be applied for variables and methods.
+
+static variables
+static methods
+
+non-static variables
+non-static methods
+
+1) static method can access static stuff directly(without creating object)
+2) static method can access non-static stuff through object
+3) non-static methods can access everything directly
+
+
+*** In non-static method you put static method
+then you call non-static method directly through
+object(no need to specify Class name before particular non-static method)
+
+
+
+
+final keyword
+---------------------------------------------
+applied for variables, methods, class
+
+1) Variables - We can not change the value of variable(constant)
+2) Method - We cannot override those methods in child classes with final keyword
+3) class  - We cannot extend the class.
+
+
+
+
+
+
+
+
+
+
+

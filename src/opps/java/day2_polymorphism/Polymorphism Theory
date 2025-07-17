@@ -1,0 +1,22 @@
+
+Polymorphism ----> one thing can have many form that called Polymorphism.
+
+poly -----> many
+morphism -----> form
+
+eg ---->
+1) Shape - circle, square, triangle, rectangle, etc
+2) water - vapour, ice burg, liquid etc
+
+
+***** We can achieve Polymorphism using Method Overloading.
+
+4 Rules are applicable
+----------------------------
+1) Method name should be same
+2) Number of parameter should be different
+3) Data type of parameter should be different
+4) Order of parameter should be different
+
+** In Overloading we not consider return type, we only consider parameter **
+
