@@ -1,0 +1,47 @@
+
+Type Casting
+----------------------------
+Converting one type of data into another type is called as type casting.
+
+Types
+----------------------------
+1) Up casting / Widening
+2) Down casting / Narrowing
+
+
+1) Up casting / Widening
+----------------------------
+converting value from smaller to larger
+    eg-  int ----> long
+         float ---> double
+
+2) Down casting / Narrowing
+----------------------------
+converting value from larger to smaller
+    eg- long ---> int
+        double ---> float
+
+
+
+Type Casting Object Rules
+
+      Cat ct = (Cat) an;
+       A   b     C    d
+       A b = (C) d;
+   Rule 1 : conversion is valid or not
+   The type of 'd' and 'C' must have same relationship(either parent to child or child to parent)
+
+   Rule 2 : assignment is valid or not
+   'C' must be either same or child of 'A'
+
+   Rule 3 :
+   The underlying object type of 'd' must be either same or child of 'C'
+
+
+note**
+         Rule 1 and Rule 2 gives compile time exception (syntax error)
+         Rule 3 gives run time exception (When you run the program)
+
+
+
+
