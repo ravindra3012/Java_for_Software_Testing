@@ -17,6 +17,7 @@ public class HashMapDemo {
 //        Adding pairs
 
         hm.put(101,"Sagar");
+        hm.put(101,"Sagar");
         hm.put(102,"Akshay");
         hm.put(103,"Bhau");
         hm.put(104,"Amol");
